@@ -82,7 +82,7 @@ p {
     border-radius: 200px;
     color: #fff;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 
 .btn-love {
@@ -135,6 +135,7 @@ header {
 img {
     max-width: 100%;
     border-radius: 25px;
+    margin-top: 25px;
 }
 
 .quoteImages {
