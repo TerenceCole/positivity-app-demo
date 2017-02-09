@@ -82,6 +82,7 @@ p {
     border-radius: 200px;
     color: #fff;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
+    box-shadow: 2px 2px 4px #7EB6FF;
     /*margin-bottom: 20px;*/
 }
 

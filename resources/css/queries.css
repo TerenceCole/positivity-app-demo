@@ -21,7 +21,7 @@
 @media only screen and (max-height: 414px) {
 
     header {
-        height: 250vh;
+        height: 200vh;
     }
 
 }
@@ -30,7 +30,7 @@
 @media only screen and (max-height: 375px) {
 
     header {
-        height: 250vh;
+        height: 200vh;
     }
 
 }
