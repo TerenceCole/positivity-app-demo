@@ -82,6 +82,7 @@ p {
     border-radius: 200px;
     color: #fff;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
+    margin-bottom: 20px;
 }
 
 .btn-love {
@@ -94,8 +95,8 @@ p {
 .btn-love:active {
     background-color: #eb15cf;
     border: 3px solid #b1c6f2;
-    font-weight: 400;
-    margin-right: 19px;
+    /*font-weight: 400;
+    margin-right: 19px;*/
 }
 
 .btn-inspiration {
@@ -108,8 +109,8 @@ p {
 .btn-inspiration:active {
     background-color: #e49c0f;
     border: 3px solid #b1c6f2;
-    font-weight: 400;
-    margin-left: 17px;
+    /*font-weight: 400;
+    margin-left: 17px;*/
 }
 
 
