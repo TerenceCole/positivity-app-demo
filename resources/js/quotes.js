@@ -70,18 +70,19 @@ function renderHTML(data) {
     }
 
     if (data.contents.author !== null) {
-        var htmlString = '"' + data.contents.quote + '"' +
-            ' --' + data.contents.author;
+        var htmlString = '"' + data.contents.quote + '"' + '<br><br>' +
+            '-- ' + data.contents.author + ' --';
     } else {
         data.contents.author = '(Anonymous)';
-        var htmlString = '"' + data.contents.quote + '"' +
-            ' --' + data.contents.author;
+        var htmlString = '"' + data.contents.quote + '"' + '<br><br>' +
+            '-- ' + data.contents.author + ' --';
     }
 
-    //quote.insertAdjacentHTML('beforeend', htmlString); -> use if I want to make this HTML and not text
-    document.getElementById('quote').textContent = htmlString;
+    //document.getElementById('quote').textContent = htmlString; -> old way to display the string in text format
+    document.getElementById('quote').innerHTML = htmlString;
 
 }
+
 
 
 /*******************************
