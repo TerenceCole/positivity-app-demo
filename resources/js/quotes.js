@@ -3,9 +3,17 @@ GLOBAL VARIABLES FOR APP
 *******************************/
 
 var quote = document.getElementById('quote');
-var welcomeAffirmationWords = ['loved', 'cherished', 'awesome', 'brilliant', 'amazing', 'a star', 'powerful',
+var welcomeAffirmationWords = ['loved', 'cherished', 'awesome', 'amazing', 'a star', 'powerful',
     'brilliant', 'super', 'one of a kind', 'tops in my book', 'the best', 'wonderful', 'a genius',
-    'fantastic', 'a superstar', 'courageous', 'brave', 'charming', 'fearless'];
+    'fantastic', 'a superstar', 'courageous', 'brave', 'charming', 'fearless', 'adored', 'appreciated',
+    'blissful', 'bold', 'cheerful', 'confident', 'creative', 'decisive', 'devine', 'dynamic', 'empowered',
+    'energized', 'enlightened', 'enthusiastic', 'exciting', 'exquisite', 'extraordinary', 'exuberant',
+    'fabulous', 'focused', 'free', 'fun', 'glorious', 'glowing', 'graceful', 'gracious', 'grateful', 'happy',
+    'harmonious', 'hopeful', 'inspired', 'invigorated', 'irresistible', 'jazzed', 'joyful', 'joyous', 'jubilant',
+    'kind', 'light', 'loveable', 'loving', 'magical', 'magnificent', 'marvelous', 'miraculous', 'noble', 'optimistic',
+    'passionate', 'peaceful', 'playful', 'positive', 'precious', 'radiant', 'refreshed', 'renewed', 'resilient',
+    'sensational', 'serene', 'spectacular', 'strong', 'terrific', 'trusting', 'unlimited', 'limitless', 'uplifted',
+    'valuable', 'vibrant', 'vivacious', 'warm', 'welcomed', 'whole', 'wise', 'worthy', 'zestful'];
 var displayQuote = false;
 var displayImage = false;
 
